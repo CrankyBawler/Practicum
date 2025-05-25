@@ -10,7 +10,8 @@ import javax.persistence.*;
     public class TwoFactorAuth {
         @Id
         private String userId;
-        private String secret;
+        private String secretKey;
         private String method; // SMS, EMAIL, AUTHENTICATOR_APP
         private boolean enabled;
     }
+

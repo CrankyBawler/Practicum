@@ -71,6 +71,11 @@
 			<artifactId>spring-data-jpa</artifactId>
 			<version>2.7.16</version>
 		</dependency>
+		<dependency>
+			<groupId>com.google.auth</groupId>
+			<artifactId>google-auth-library-oauth2-http</artifactId>
+			<version>1.16.0</version>
+		</dependency>
 
 	</dependencies>
 
