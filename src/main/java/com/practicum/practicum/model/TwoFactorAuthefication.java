@@ -13,5 +13,5 @@ public class TwoFactorAuthefication {
     private String userId;
     private String secret;
     private String method;
-    private boolean enadled;
+    private boolean enabled;
 }
