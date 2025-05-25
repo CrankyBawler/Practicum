@@ -8,7 +8,7 @@ import javax.persistence.Id;
 
 @Entity
 @Data
-public class TwoFactorAuthification {
+public class TwoFactorAuthefication {
     @Id
     private String userId;
     private String secret;
